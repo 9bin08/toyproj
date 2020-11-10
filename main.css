@@ -33,9 +33,12 @@ body {
 }
 .box:hover {
   transform: scale(1.2);
-  transition: all ease 1s;
+  transition: all ease 10s;
 }
-
+a {
+  display: block;
+  height: 200px;
+}
 .contents:nth-child(1) {
   transform: rotate(-30deg);
 }
